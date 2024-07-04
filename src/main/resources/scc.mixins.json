@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.scc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "scc.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "SwordOfTheCosmosMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
